@@ -59,7 +59,7 @@ router.post('/', (req, res) => {
       "tagIds": [1, 2, 3, 9]
 
     }
-
+during testing it is found that invalid tags will still cause the product entry to get created in the database.
  */
 
   Product.create(req.body)
